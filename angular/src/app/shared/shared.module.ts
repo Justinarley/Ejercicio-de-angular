@@ -25,3 +25,4 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   ]
 })
 export class SharedModule { }
+// Justin Altamirano
