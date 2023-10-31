@@ -2,15 +2,15 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CategoryComponent } from './category/category.component';
 import { ProductComponent } from './product/product.component';
-import { WebComponent } from './web.component';
+
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 const routes: Routes = [
   {
-    path: 'dashboard', component: WebComponent,
+    path: 'dashboard', component: DashboardComponent,
     children: [
-      { path: '', component: DashboardComponent },
+      // { path: '', component: DashboardComponent },
     { path: 'product', component: ProductComponent },
       { path: 'category', component: CategoryComponent },
     ]
